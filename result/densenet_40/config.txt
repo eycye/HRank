@@ -1,0 +1,17 @@
+2020-10-28-16:13:13
+
+data_dir: ./data
+dataset: cifar10
+lr: 0.01
+lr_decay_step: 5,10
+resume: ./result/densenet_40/pruned_checkpoint/densenet_40_cov1.pt
+resume_mask: None
+gpu: 0
+job_dir: ./result/densenet_40/
+epochs: 15
+train_batch_size: 128
+eval_batch_size: 100
+start_cov: 0
+compress_rate: [0.0]+[0.1]*6+[0.7]*6+[0.0]+[0.1]*6+[0.7]*6+[0.0]+[0.1]*6+[0.7]*5+[0.0]
+arch: densenet_40
+
