@@ -1,0 +1,831 @@
+10/31 09:17:22 PM | 
+10/31 09:17:22 PM | Parameters:
+10/31 09:17:22 PM | ARCH=densenet_40
+10/31 09:17:22 PM | COMPRESS_RATE=[0.0]+[0.1]*6+[0.7]*6+[0.0]+[0.1]*6+[0.7]*6+[0.0]+[0.1]*6+[0.7]*5+[0.0]
+10/31 09:17:22 PM | DATA_DIR=./data
+10/31 09:17:22 PM | DATASET=cifar10
+10/31 09:17:22 PM | EPOCHS=15
+10/31 09:17:22 PM | EVAL_BATCH_SIZE=100
+10/31 09:17:22 PM | GPU=0
+10/31 09:17:22 PM | JOB_DIR=./result/densenet_40/
+10/31 09:17:22 PM | LR=0.01
+10/31 09:17:22 PM | LR_DECAY_STEP=5,10
+10/31 09:17:22 PM | RESUME=./result/densenet_40/pruned_checkpoint/densenet_40_cov5.pt
+10/31 09:17:22 PM | RESUME_MASK=None
+10/31 09:17:22 PM | START_COV=0
+10/31 09:17:22 PM | TRAIN_BATCH_SIZE=128
+10/31 09:17:22 PM | 
+10/31 09:17:22 PM | ==> Preparing data..
+10/31 09:17:27 PM | ==> Building model..
+10/31 09:17:37 PM | compress rate: [0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.0, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.7, 0.7, 0.7, 0.7, 0.7, 0.0]
+10/31 09:17:37 PM | cov-id: 0 ====> Resuming from pruned_checkpoint...
+10/31 09:17:37 PM | 
+Epoch: 0
+10/31 09:19:07 PM | Epoch[0](99/100): Prec@1(1,5) 89.66, 99.60
+10/31 09:19:07 PM | Saving to densenet_40_cov1.pt
+10/31 09:19:07 PM | =>Best accuracy 89.660
+10/31 09:19:07 PM | 
+Epoch: 1
+10/31 09:20:35 PM | Epoch[1](99/100): Prec@1(1,5) 89.09, 99.54
+10/31 09:20:35 PM | =>Best accuracy 89.660
+10/31 09:20:35 PM | 
+Epoch: 2
+10/31 09:22:04 PM | Epoch[2](99/100): Prec@1(1,5) 90.03, 99.70
+10/31 09:22:04 PM | Saving to densenet_40_cov1.pt
+10/31 09:22:04 PM | =>Best accuracy 90.030
+10/31 09:22:04 PM | 
+Epoch: 3
+10/31 09:23:34 PM | Epoch[3](99/100): Prec@1(1,5) 88.82, 99.55
+10/31 09:23:34 PM | =>Best accuracy 90.030
+10/31 09:23:34 PM | 
+Epoch: 4
+10/31 09:25:04 PM | Epoch[4](99/100): Prec@1(1,5) 90.30, 99.61
+10/31 09:25:04 PM | Saving to densenet_40_cov1.pt
+10/31 09:25:04 PM | =>Best accuracy 90.300
+10/31 09:25:04 PM | 
+Epoch: 5
+10/31 09:26:33 PM | Epoch[5](99/100): Prec@1(1,5) 93.17, 99.79
+10/31 09:26:33 PM | Saving to densenet_40_cov1.pt
+10/31 09:26:33 PM | =>Best accuracy 93.170
+10/31 09:26:33 PM | 
+Epoch: 6
+10/31 09:28:03 PM | Epoch[6](99/100): Prec@1(1,5) 93.18, 99.80
+10/31 09:28:03 PM | Saving to densenet_40_cov1.pt
+10/31 09:28:03 PM | =>Best accuracy 93.180
+10/31 09:28:03 PM | 
+Epoch: 7
+10/31 09:29:32 PM | Epoch[7](99/100): Prec@1(1,5) 93.28, 99.77
+10/31 09:29:32 PM | Saving to densenet_40_cov1.pt
+10/31 09:29:32 PM | =>Best accuracy 93.280
+10/31 09:29:32 PM | 
+Epoch: 8
+10/31 09:31:02 PM | Epoch[8](99/100): Prec@1(1,5) 93.39, 99.75
+10/31 09:31:02 PM | Saving to densenet_40_cov1.pt
+10/31 09:31:02 PM | =>Best accuracy 93.390
+10/31 09:31:02 PM | 
+Epoch: 9
+10/31 09:32:32 PM | Epoch[9](99/100): Prec@1(1,5) 93.38, 99.83
+10/31 09:32:32 PM | =>Best accuracy 93.390
+10/31 09:32:32 PM | 
+Epoch: 10
+10/31 09:34:01 PM | Epoch[10](99/100): Prec@1(1,5) 93.42, 99.82
+10/31 09:34:01 PM | Saving to densenet_40_cov1.pt
+10/31 09:34:01 PM | =>Best accuracy 93.420
+10/31 09:34:01 PM | 
+Epoch: 11
+10/31 09:35:31 PM | Epoch[11](99/100): Prec@1(1,5) 93.43, 99.78
+10/31 09:35:31 PM | Saving to densenet_40_cov1.pt
+10/31 09:35:31 PM | =>Best accuracy 93.430
+10/31 09:35:31 PM | 
+Epoch: 12
+10/31 09:37:01 PM | Epoch[12](99/100): Prec@1(1,5) 93.34, 99.83
+10/31 09:37:01 PM | =>Best accuracy 93.430
+10/31 09:37:01 PM | 
+Epoch: 13
+10/31 09:38:30 PM | Epoch[13](99/100): Prec@1(1,5) 93.54, 99.82
+10/31 09:38:30 PM | Saving to densenet_40_cov1.pt
+10/31 09:38:30 PM | =>Best accuracy 93.540
+10/31 09:38:30 PM | 
+Epoch: 14
+10/31 09:40:00 PM | Epoch[14](99/100): Prec@1(1,5) 93.44, 99.83
+10/31 09:40:00 PM | =>Best accuracy 93.540
+10/31 09:40:00 PM | cov-id: 1 ====> Resuming from pruned_checkpoint...
+10/31 09:40:00 PM | 
+Epoch: 0
+10/31 09:41:29 PM | Epoch[0](99/100): Prec@1(1,5) 88.75, 99.49
+10/31 09:41:29 PM | Saving to densenet_40_cov2.pt
+10/31 09:41:29 PM | =>Best accuracy 88.750
+10/31 09:41:29 PM | 
+Epoch: 1
+10/31 09:42:59 PM | Epoch[1](99/100): Prec@1(1,5) 89.74, 99.54
+10/31 09:42:59 PM | Saving to densenet_40_cov2.pt
+10/31 09:42:59 PM | =>Best accuracy 89.740
+10/31 09:42:59 PM | 
+Epoch: 2
+10/31 09:44:29 PM | Epoch[2](99/100): Prec@1(1,5) 89.40, 99.73
+10/31 09:44:29 PM | =>Best accuracy 89.740
+10/31 09:44:29 PM | 
+Epoch: 3
+10/31 09:45:58 PM | Epoch[3](99/100): Prec@1(1,5) 90.35, 99.54
+10/31 09:45:58 PM | Saving to densenet_40_cov2.pt
+10/31 09:45:58 PM | =>Best accuracy 90.350
+10/31 09:45:58 PM | 
+Epoch: 4
+10/31 09:47:28 PM | Epoch[4](99/100): Prec@1(1,5) 89.96, 99.63
+10/31 09:47:28 PM | =>Best accuracy 90.350
+10/31 09:47:28 PM | 
+Epoch: 5
+10/31 09:48:58 PM | Epoch[5](99/100): Prec@1(1,5) 92.78, 99.77
+10/31 09:48:58 PM | Saving to densenet_40_cov2.pt
+10/31 09:48:58 PM | =>Best accuracy 92.780
+10/31 09:48:58 PM | 
+Epoch: 6
+10/31 09:50:27 PM | Epoch[6](99/100): Prec@1(1,5) 93.04, 99.79
+10/31 09:50:27 PM | Saving to densenet_40_cov2.pt
+10/31 09:50:27 PM | =>Best accuracy 93.040
+10/31 09:50:27 PM | 
+Epoch: 7
+10/31 09:51:57 PM | Epoch[7](99/100): Prec@1(1,5) 93.10, 99.72
+10/31 09:51:57 PM | Saving to densenet_40_cov2.pt
+10/31 09:51:57 PM | =>Best accuracy 93.100
+10/31 09:51:57 PM | 
+Epoch: 8
+10/31 09:53:26 PM | Epoch[8](99/100): Prec@1(1,5) 93.22, 99.76
+10/31 09:53:26 PM | Saving to densenet_40_cov2.pt
+10/31 09:53:26 PM | =>Best accuracy 93.220
+10/31 09:53:26 PM | 
+Epoch: 9
+10/31 09:54:56 PM | Epoch[9](99/100): Prec@1(1,5) 93.29, 99.76
+10/31 09:54:56 PM | Saving to densenet_40_cov2.pt
+10/31 09:54:56 PM | =>Best accuracy 93.290
+10/31 09:54:56 PM | 
+Epoch: 10
+10/31 09:56:26 PM | Epoch[10](99/100): Prec@1(1,5) 93.32, 99.73
+10/31 09:56:26 PM | Saving to densenet_40_cov2.pt
+10/31 09:56:26 PM | =>Best accuracy 93.320
+10/31 09:56:26 PM | 
+Epoch: 11
+10/31 09:57:55 PM | Epoch[11](99/100): Prec@1(1,5) 93.36, 99.75
+10/31 09:57:55 PM | Saving to densenet_40_cov2.pt
+10/31 09:57:55 PM | =>Best accuracy 93.360
+10/31 09:57:55 PM | 
+Epoch: 12
+10/31 09:59:25 PM | Epoch[12](99/100): Prec@1(1,5) 93.28, 99.74
+10/31 09:59:25 PM | =>Best accuracy 93.360
+10/31 09:59:25 PM | 
+Epoch: 13
+10/31 10:00:55 PM | Epoch[13](99/100): Prec@1(1,5) 93.28, 99.74
+10/31 10:00:55 PM | =>Best accuracy 93.360
+10/31 10:00:55 PM | 
+Epoch: 14
+10/31 10:02:24 PM | Epoch[14](99/100): Prec@1(1,5) 93.34, 99.74
+10/31 10:02:24 PM | =>Best accuracy 93.360
+10/31 10:02:24 PM | cov-id: 2 ====> Resuming from pruned_checkpoint...
+10/31 10:02:24 PM | 
+Epoch: 0
+10/31 10:03:54 PM | Epoch[0](99/100): Prec@1(1,5) 88.97, 99.44
+10/31 10:03:54 PM | Saving to densenet_40_cov3.pt
+10/31 10:03:54 PM | =>Best accuracy 88.970
+10/31 10:03:54 PM | 
+Epoch: 1
+10/31 10:05:24 PM | Epoch[1](99/100): Prec@1(1,5) 89.03, 99.41
+10/31 10:05:24 PM | Saving to densenet_40_cov3.pt
+10/31 10:05:24 PM | =>Best accuracy 89.030
+10/31 10:05:24 PM | 
+Epoch: 2
+10/31 10:06:53 PM | Epoch[2](99/100): Prec@1(1,5) 90.59, 99.52
+10/31 10:06:53 PM | Saving to densenet_40_cov3.pt
+10/31 10:06:53 PM | =>Best accuracy 90.590
+10/31 10:06:53 PM | 
+Epoch: 3
+10/31 10:08:23 PM | Epoch[3](99/100): Prec@1(1,5) 89.83, 99.41
+10/31 10:08:23 PM | =>Best accuracy 90.590
+10/31 10:08:23 PM | 
+Epoch: 4
+10/31 10:09:53 PM | Epoch[4](99/100): Prec@1(1,5) 89.04, 99.68
+10/31 10:09:53 PM | =>Best accuracy 90.590
+10/31 10:09:53 PM | 
+Epoch: 5
+10/31 10:11:22 PM | Epoch[5](99/100): Prec@1(1,5) 93.07, 99.78
+10/31 10:11:22 PM | Saving to densenet_40_cov3.pt
+10/31 10:11:22 PM | =>Best accuracy 93.070
+10/31 10:11:22 PM | 
+Epoch: 6
+10/31 10:12:52 PM | Epoch[6](99/100): Prec@1(1,5) 93.24, 99.87
+10/31 10:12:52 PM | Saving to densenet_40_cov3.pt
+10/31 10:12:52 PM | =>Best accuracy 93.240
+10/31 10:12:52 PM | 
+Epoch: 7
+10/31 10:14:21 PM | Epoch[7](99/100): Prec@1(1,5) 93.17, 99.82
+10/31 10:14:21 PM | =>Best accuracy 93.240
+10/31 10:14:21 PM | 
+Epoch: 8
+10/31 10:15:51 PM | Epoch[8](99/100): Prec@1(1,5) 93.26, 99.84
+10/31 10:15:51 PM | Saving to densenet_40_cov3.pt
+10/31 10:15:51 PM | =>Best accuracy 93.260
+10/31 10:15:51 PM | 
+Epoch: 9
+10/31 10:17:21 PM | Epoch[9](99/100): Prec@1(1,5) 93.28, 99.84
+10/31 10:17:21 PM | Saving to densenet_40_cov3.pt
+10/31 10:17:21 PM | =>Best accuracy 93.280
+10/31 10:17:21 PM | 
+Epoch: 10
+10/31 10:18:50 PM | Epoch[10](99/100): Prec@1(1,5) 93.33, 99.86
+10/31 10:18:50 PM | Saving to densenet_40_cov3.pt
+10/31 10:18:50 PM | =>Best accuracy 93.330
+10/31 10:18:50 PM | 
+Epoch: 11
+10/31 10:20:20 PM | Epoch[11](99/100): Prec@1(1,5) 93.39, 99.83
+10/31 10:20:20 PM | Saving to densenet_40_cov3.pt
+10/31 10:20:20 PM | =>Best accuracy 93.390
+10/31 10:20:20 PM | 
+Epoch: 12
+10/31 10:21:49 PM | Epoch[12](99/100): Prec@1(1,5) 93.34, 99.83
+10/31 10:21:49 PM | =>Best accuracy 93.390
+10/31 10:21:49 PM | 
+Epoch: 13
+10/31 10:23:19 PM | Epoch[13](99/100): Prec@1(1,5) 93.25, 99.84
+10/31 10:23:19 PM | =>Best accuracy 93.390
+10/31 10:23:19 PM | 
+Epoch: 14
+10/31 10:24:49 PM | Epoch[14](99/100): Prec@1(1,5) 93.34, 99.85
+10/31 10:24:49 PM | =>Best accuracy 93.390
+10/31 10:24:49 PM | cov-id: 3 ====> Resuming from pruned_checkpoint...
+10/31 10:24:49 PM | 
+Epoch: 0
+10/31 10:26:18 PM | Epoch[0](99/100): Prec@1(1,5) 89.40, 99.66
+10/31 10:26:18 PM | Saving to densenet_40_cov4.pt
+10/31 10:26:18 PM | =>Best accuracy 89.400
+10/31 10:26:18 PM | 
+Epoch: 1
+10/31 10:27:48 PM | Epoch[1](99/100): Prec@1(1,5) 90.44, 99.55
+10/31 10:27:48 PM | Saving to densenet_40_cov4.pt
+10/31 10:27:48 PM | =>Best accuracy 90.440
+10/31 10:27:48 PM | 
+Epoch: 2
+10/31 10:29:17 PM | Epoch[2](99/100): Prec@1(1,5) 90.67, 99.59
+10/31 10:29:17 PM | Saving to densenet_40_cov4.pt
+10/31 10:29:18 PM | =>Best accuracy 90.670
+10/31 10:29:18 PM | 
+Epoch: 3
+10/31 10:30:47 PM | Epoch[3](99/100): Prec@1(1,5) 89.93, 99.51
+10/31 10:30:47 PM | =>Best accuracy 90.670
+10/31 10:30:47 PM | 
+Epoch: 4
+10/31 10:32:17 PM | Epoch[4](99/100): Prec@1(1,5) 89.69, 99.58
+10/31 10:32:17 PM | =>Best accuracy 90.670
+10/31 10:32:17 PM | 
+Epoch: 5
+10/31 10:33:46 PM | Epoch[5](99/100): Prec@1(1,5) 93.03, 99.78
+10/31 10:33:46 PM | Saving to densenet_40_cov4.pt
+10/31 10:33:46 PM | =>Best accuracy 93.030
+10/31 10:33:46 PM | 
+Epoch: 6
+10/31 10:35:16 PM | Epoch[6](99/100): Prec@1(1,5) 93.03, 99.77
+10/31 10:35:16 PM | =>Best accuracy 93.030
+10/31 10:35:16 PM | 
+Epoch: 7
+10/31 10:36:45 PM | Epoch[7](99/100): Prec@1(1,5) 93.08, 99.78
+10/31 10:36:45 PM | Saving to densenet_40_cov4.pt
+10/31 10:36:45 PM | =>Best accuracy 93.080
+10/31 10:36:45 PM | 
+Epoch: 8
+10/31 10:38:15 PM | Epoch[8](99/100): Prec@1(1,5) 93.11, 99.75
+10/31 10:38:15 PM | Saving to densenet_40_cov4.pt
+10/31 10:38:15 PM | =>Best accuracy 93.110
+10/31 10:38:15 PM | 
+Epoch: 9
+10/31 10:39:45 PM | Epoch[9](99/100): Prec@1(1,5) 93.31, 99.78
+10/31 10:39:45 PM | Saving to densenet_40_cov4.pt
+10/31 10:39:45 PM | =>Best accuracy 93.310
+10/31 10:39:45 PM | 
+Epoch: 10
+10/31 10:41:14 PM | Epoch[10](99/100): Prec@1(1,5) 93.30, 99.77
+10/31 10:41:14 PM | =>Best accuracy 93.310
+10/31 10:41:14 PM | 
+Epoch: 11
+10/31 10:42:44 PM | Epoch[11](99/100): Prec@1(1,5) 93.32, 99.76
+10/31 10:42:44 PM | Saving to densenet_40_cov4.pt
+10/31 10:42:44 PM | =>Best accuracy 93.320
+10/31 10:42:44 PM | 
+Epoch: 12
+10/31 10:44:13 PM | Epoch[12](99/100): Prec@1(1,5) 93.35, 99.77
+10/31 10:44:13 PM | Saving to densenet_40_cov4.pt
+10/31 10:44:13 PM | =>Best accuracy 93.350
+10/31 10:44:13 PM | 
+Epoch: 13
+10/31 10:45:43 PM | Epoch[13](99/100): Prec@1(1,5) 93.33, 99.78
+10/31 10:45:43 PM | =>Best accuracy 93.350
+10/31 10:45:43 PM | 
+Epoch: 14
+10/31 10:47:12 PM | Epoch[14](99/100): Prec@1(1,5) 93.22, 99.77
+10/31 10:47:12 PM | =>Best accuracy 93.350
+10/31 10:47:12 PM | cov-id: 4 ====> Resuming from pruned_checkpoint...
+10/31 10:47:12 PM | 
+Epoch: 0
+10/31 10:48:42 PM | Epoch[0](99/100): Prec@1(1,5) 89.50, 99.50
+10/31 10:48:42 PM | Saving to densenet_40_cov5.pt
+10/31 10:48:42 PM | =>Best accuracy 89.500
+10/31 10:48:42 PM | 
+Epoch: 1
+10/31 10:50:11 PM | Epoch[1](99/100): Prec@1(1,5) 88.45, 99.57
+10/31 10:50:11 PM | =>Best accuracy 89.500
+10/31 10:50:11 PM | 
+Epoch: 2
+10/31 10:51:41 PM | Epoch[2](99/100): Prec@1(1,5) 90.48, 99.61
+10/31 10:51:41 PM | Saving to densenet_40_cov5.pt
+10/31 10:51:41 PM | =>Best accuracy 90.480
+10/31 10:51:41 PM | 
+Epoch: 3
+10/31 10:53:10 PM | Epoch[3](99/100): Prec@1(1,5) 88.55, 99.34
+10/31 10:53:10 PM | =>Best accuracy 90.480
+10/31 10:53:10 PM | 
+Epoch: 4
+10/31 10:54:40 PM | Epoch[4](99/100): Prec@1(1,5) 90.92, 99.72
+10/31 10:54:40 PM | Saving to densenet_40_cov5.pt
+10/31 10:54:40 PM | =>Best accuracy 90.920
+10/31 10:54:40 PM | 
+Epoch: 5
+10/31 10:56:10 PM | Epoch[5](99/100): Prec@1(1,5) 92.86, 99.84
+10/31 10:56:10 PM | Saving to densenet_40_cov5.pt
+10/31 10:56:10 PM | =>Best accuracy 92.860
+10/31 10:56:10 PM | 
+Epoch: 6
+10/31 10:57:39 PM | Epoch[6](99/100): Prec@1(1,5) 93.10, 99.83
+10/31 10:57:39 PM | Saving to densenet_40_cov5.pt
+10/31 10:57:39 PM | =>Best accuracy 93.100
+10/31 10:57:39 PM | 
+Epoch: 7
+10/31 10:59:09 PM | Epoch[7](99/100): Prec@1(1,5) 93.31, 99.77
+10/31 10:59:09 PM | Saving to densenet_40_cov5.pt
+10/31 10:59:09 PM | =>Best accuracy 93.310
+10/31 10:59:09 PM | 
+Epoch: 8
+10/31 11:00:38 PM | Epoch[8](99/100): Prec@1(1,5) 93.39, 99.78
+10/31 11:00:38 PM | Saving to densenet_40_cov5.pt
+10/31 11:00:38 PM | =>Best accuracy 93.390
+10/31 11:00:38 PM | 
+Epoch: 9
+10/31 11:02:08 PM | Epoch[9](99/100): Prec@1(1,5) 93.26, 99.75
+10/31 11:02:08 PM | =>Best accuracy 93.390
+10/31 11:02:08 PM | 
+Epoch: 10
+10/31 11:03:38 PM | Epoch[10](99/100): Prec@1(1,5) 93.46, 99.76
+10/31 11:03:38 PM | Saving to densenet_40_cov5.pt
+10/31 11:03:38 PM | =>Best accuracy 93.460
+10/31 11:03:38 PM | 
+Epoch: 11
+10/31 11:05:07 PM | Epoch[11](99/100): Prec@1(1,5) 93.47, 99.79
+10/31 11:05:07 PM | Saving to densenet_40_cov5.pt
+10/31 11:05:07 PM | =>Best accuracy 93.470
+10/31 11:05:07 PM | 
+Epoch: 12
+10/31 11:06:37 PM | Epoch[12](99/100): Prec@1(1,5) 93.31, 99.79
+10/31 11:06:37 PM | =>Best accuracy 93.470
+10/31 11:06:37 PM | 
+Epoch: 13
+10/31 11:08:06 PM | Epoch[13](99/100): Prec@1(1,5) 93.46, 99.76
+10/31 11:08:06 PM | =>Best accuracy 93.470
+10/31 11:08:06 PM | 
+Epoch: 14
+10/31 11:09:36 PM | Epoch[14](99/100): Prec@1(1,5) 93.43, 99.77
+10/31 11:09:36 PM | =>Best accuracy 93.470
+10/31 11:09:36 PM | cov-id: 5 ====> Resuming from pruned_checkpoint...
+10/31 11:09:36 PM | 
+Epoch: 0
+10/31 11:11:05 PM | Epoch[0](99/100): Prec@1(1,5) 86.18, 99.34
+10/31 11:11:05 PM | Saving to densenet_40_cov6.pt
+10/31 11:11:05 PM | =>Best accuracy 86.180
+10/31 11:11:05 PM | 
+Epoch: 1
+10/31 11:12:35 PM | Epoch[1](99/100): Prec@1(1,5) 89.71, 99.59
+10/31 11:12:35 PM | Saving to densenet_40_cov6.pt
+10/31 11:12:35 PM | =>Best accuracy 89.710
+10/31 11:12:35 PM | 
+Epoch: 2
+10/31 11:14:04 PM | Epoch[2](99/100): Prec@1(1,5) 89.33, 99.57
+10/31 11:14:04 PM | =>Best accuracy 89.710
+10/31 11:14:04 PM | 
+Epoch: 3
+10/31 11:15:34 PM | Epoch[3](99/100): Prec@1(1,5) 88.32, 99.44
+10/31 11:15:34 PM | =>Best accuracy 89.710
+10/31 11:15:34 PM | 
+Epoch: 4
+10/31 11:17:03 PM | Epoch[4](99/100): Prec@1(1,5) 89.88, 99.53
+10/31 11:17:03 PM | Saving to densenet_40_cov6.pt
+10/31 11:17:03 PM | =>Best accuracy 89.880
+10/31 11:17:03 PM | 
+Epoch: 5
+10/31 11:18:33 PM | Epoch[5](99/100): Prec@1(1,5) 93.17, 99.74
+10/31 11:18:33 PM | Saving to densenet_40_cov6.pt
+10/31 11:18:33 PM | =>Best accuracy 93.170
+10/31 11:18:33 PM | 
+Epoch: 6
+10/31 11:20:02 PM | Epoch[6](99/100): Prec@1(1,5) 93.12, 99.79
+10/31 11:20:02 PM | =>Best accuracy 93.170
+10/31 11:20:02 PM | 
+Epoch: 7
+10/31 11:21:31 PM | Epoch[7](99/100): Prec@1(1,5) 93.28, 99.77
+10/31 11:21:31 PM | Saving to densenet_40_cov6.pt
+10/31 11:21:31 PM | =>Best accuracy 93.280
+10/31 11:21:31 PM | 
+Epoch: 8
+10/31 11:23:01 PM | Epoch[8](99/100): Prec@1(1,5) 93.47, 99.74
+10/31 11:23:01 PM | Saving to densenet_40_cov6.pt
+10/31 11:23:01 PM | =>Best accuracy 93.470
+10/31 11:23:01 PM | 
+Epoch: 9
+10/31 11:24:31 PM | Epoch[9](99/100): Prec@1(1,5) 93.24, 99.81
+10/31 11:24:31 PM | =>Best accuracy 93.470
+10/31 11:24:31 PM | 
+Epoch: 10
+10/31 11:26:00 PM | Epoch[10](99/100): Prec@1(1,5) 93.41, 99.78
+10/31 11:26:00 PM | =>Best accuracy 93.470
+10/31 11:26:00 PM | 
+Epoch: 11
+10/31 11:27:29 PM | Epoch[11](99/100): Prec@1(1,5) 93.61, 99.79
+10/31 11:27:29 PM | Saving to densenet_40_cov6.pt
+10/31 11:27:30 PM | =>Best accuracy 93.610
+10/31 11:27:30 PM | 
+Epoch: 12
+10/31 11:28:59 PM | Epoch[12](99/100): Prec@1(1,5) 93.47, 99.79
+10/31 11:28:59 PM | =>Best accuracy 93.610
+10/31 11:28:59 PM | 
+Epoch: 13
+10/31 11:30:28 PM | Epoch[13](99/100): Prec@1(1,5) 93.54, 99.79
+10/31 11:30:28 PM | =>Best accuracy 93.610
+10/31 11:30:28 PM | 
+Epoch: 14
+10/31 11:31:58 PM | Epoch[14](99/100): Prec@1(1,5) 93.40, 99.83
+10/31 11:31:58 PM | =>Best accuracy 93.610
+10/31 11:31:58 PM | cov-id: 6 ====> Resuming from pruned_checkpoint...
+10/31 11:31:58 PM | 
+Epoch: 0
+10/31 11:33:27 PM | Epoch[0](99/100): Prec@1(1,5) 88.97, 99.50
+10/31 11:33:27 PM | Saving to densenet_40_cov7.pt
+10/31 11:33:27 PM | =>Best accuracy 88.970
+10/31 11:33:27 PM | 
+Epoch: 1
+10/31 11:34:57 PM | Epoch[1](99/100): Prec@1(1,5) 89.50, 99.47
+10/31 11:34:57 PM | Saving to densenet_40_cov7.pt
+10/31 11:34:57 PM | =>Best accuracy 89.500
+10/31 11:34:57 PM | 
+Epoch: 2
+10/31 11:36:27 PM | Epoch[2](99/100): Prec@1(1,5) 89.22, 99.61
+10/31 11:36:27 PM | =>Best accuracy 89.500
+10/31 11:36:27 PM | 
+Epoch: 3
+10/31 11:37:56 PM | Epoch[3](99/100): Prec@1(1,5) 89.40, 99.40
+10/31 11:37:56 PM | =>Best accuracy 89.500
+10/31 11:37:56 PM | 
+Epoch: 4
+10/31 11:39:26 PM | Epoch[4](99/100): Prec@1(1,5) 90.40, 99.48
+10/31 11:39:26 PM | Saving to densenet_40_cov7.pt
+10/31 11:39:26 PM | =>Best accuracy 90.400
+10/31 11:39:26 PM | 
+Epoch: 5
+10/31 11:40:55 PM | Epoch[5](99/100): Prec@1(1,5) 93.15, 99.80
+10/31 11:40:55 PM | Saving to densenet_40_cov7.pt
+10/31 11:40:55 PM | =>Best accuracy 93.150
+10/31 11:40:55 PM | 
+Epoch: 6
+10/31 11:42:25 PM | Epoch[6](99/100): Prec@1(1,5) 93.35, 99.83
+10/31 11:42:25 PM | Saving to densenet_40_cov7.pt
+10/31 11:42:25 PM | =>Best accuracy 93.350
+10/31 11:42:25 PM | 
+Epoch: 7
+10/31 11:43:55 PM | Epoch[7](99/100): Prec@1(1,5) 93.27, 99.77
+10/31 11:43:55 PM | =>Best accuracy 93.350
+10/31 11:43:55 PM | 
+Epoch: 8
+10/31 11:45:24 PM | Epoch[8](99/100): Prec@1(1,5) 93.55, 99.81
+10/31 11:45:24 PM | Saving to densenet_40_cov7.pt
+10/31 11:45:24 PM | =>Best accuracy 93.550
+10/31 11:45:24 PM | 
+Epoch: 9
+10/31 11:46:54 PM | Epoch[9](99/100): Prec@1(1,5) 93.40, 99.80
+10/31 11:46:54 PM | =>Best accuracy 93.550
+10/31 11:46:54 PM | 
+Epoch: 10
+10/31 11:48:23 PM | Epoch[10](99/100): Prec@1(1,5) 93.46, 99.80
+10/31 11:48:23 PM | =>Best accuracy 93.550
+10/31 11:48:23 PM | 
+Epoch: 11
+10/31 11:49:53 PM | Epoch[11](99/100): Prec@1(1,5) 93.42, 99.82
+10/31 11:49:53 PM | =>Best accuracy 93.550
+10/31 11:49:53 PM | 
+Epoch: 12
+10/31 11:51:22 PM | Epoch[12](99/100): Prec@1(1,5) 93.49, 99.79
+10/31 11:51:22 PM | =>Best accuracy 93.550
+10/31 11:51:22 PM | 
+Epoch: 13
+10/31 11:52:52 PM | Epoch[13](99/100): Prec@1(1,5) 93.47, 99.83
+10/31 11:52:52 PM | =>Best accuracy 93.550
+10/31 11:52:52 PM | 
+Epoch: 14
+10/31 11:54:21 PM | Epoch[14](99/100): Prec@1(1,5) 93.51, 99.83
+10/31 11:54:21 PM | =>Best accuracy 93.550
+10/31 11:54:21 PM | cov-id: 7 ====> Resuming from pruned_checkpoint...
+10/31 11:54:21 PM | 
+Epoch: 0
+10/31 11:55:51 PM | Epoch[0](99/100): Prec@1(1,5) 90.30, 99.64
+10/31 11:55:51 PM | Saving to densenet_40_cov8.pt
+10/31 11:55:51 PM | =>Best accuracy 90.300
+10/31 11:55:51 PM | 
+Epoch: 1
+10/31 11:57:20 PM | Epoch[1](99/100): Prec@1(1,5) 90.53, 99.62
+10/31 11:57:20 PM | Saving to densenet_40_cov8.pt
+10/31 11:57:20 PM | =>Best accuracy 90.530
+10/31 11:57:20 PM | 
+Epoch: 2
+10/31 11:58:50 PM | Epoch[2](99/100): Prec@1(1,5) 90.36, 99.50
+10/31 11:58:50 PM | =>Best accuracy 90.530
+10/31 11:58:50 PM | 
+Epoch: 3
+11/01 12:00:19 AM | Epoch[3](99/100): Prec@1(1,5) 91.25, 99.58
+11/01 12:00:19 AM | Saving to densenet_40_cov8.pt
+11/01 12:00:19 AM | =>Best accuracy 91.250
+11/01 12:00:19 AM | 
+Epoch: 4
+11/01 12:01:49 AM | Epoch[4](99/100): Prec@1(1,5) 90.25, 99.53
+11/01 12:01:49 AM | =>Best accuracy 91.250
+11/01 12:01:49 AM | 
+Epoch: 5
+11/01 12:03:18 AM | Epoch[5](99/100): Prec@1(1,5) 93.22, 99.75
+11/01 12:03:18 AM | Saving to densenet_40_cov8.pt
+11/01 12:03:18 AM | =>Best accuracy 93.220
+11/01 12:03:18 AM | 
+Epoch: 6
+11/01 12:04:48 AM | Epoch[6](99/100): Prec@1(1,5) 93.25, 99.81
+11/01 12:04:48 AM | Saving to densenet_40_cov8.pt
+11/01 12:04:48 AM | =>Best accuracy 93.250
+11/01 12:04:48 AM | 
+Epoch: 7
+11/01 12:06:18 AM | Epoch[7](99/100): Prec@1(1,5) 93.53, 99.81
+11/01 12:06:18 AM | Saving to densenet_40_cov8.pt
+11/01 12:06:18 AM | =>Best accuracy 93.530
+11/01 12:06:18 AM | 
+Epoch: 8
+11/01 12:07:47 AM | Epoch[8](99/100): Prec@1(1,5) 93.53, 99.79
+11/01 12:07:47 AM | =>Best accuracy 93.530
+11/01 12:07:47 AM | 
+Epoch: 9
+11/01 12:09:17 AM | Epoch[9](99/100): Prec@1(1,5) 93.60, 99.81
+11/01 12:09:17 AM | Saving to densenet_40_cov8.pt
+11/01 12:09:17 AM | =>Best accuracy 93.600
+11/01 12:09:17 AM | 
+Epoch: 10
+11/01 12:10:46 AM | Epoch[10](99/100): Prec@1(1,5) 93.69, 99.82
+11/01 12:10:46 AM | Saving to densenet_40_cov8.pt
+11/01 12:10:46 AM | =>Best accuracy 93.690
+11/01 12:10:46 AM | 
+Epoch: 11
+11/01 12:12:16 AM | Epoch[11](99/100): Prec@1(1,5) 93.56, 99.81
+11/01 12:12:16 AM | =>Best accuracy 93.690
+11/01 12:12:16 AM | 
+Epoch: 12
+11/01 12:13:45 AM | Epoch[12](99/100): Prec@1(1,5) 93.65, 99.80
+11/01 12:13:45 AM | =>Best accuracy 93.690
+11/01 12:13:45 AM | 
+Epoch: 13
+11/01 12:15:15 AM | Epoch[13](99/100): Prec@1(1,5) 93.59, 99.80
+11/01 12:15:15 AM | =>Best accuracy 93.690
+11/01 12:15:15 AM | 
+Epoch: 14
+11/01 12:16:44 AM | Epoch[14](99/100): Prec@1(1,5) 93.64, 99.81
+11/01 12:16:44 AM | =>Best accuracy 93.690
+11/01 12:16:44 AM | cov-id: 8 ====> Resuming from pruned_checkpoint...
+11/01 12:16:44 AM | 
+Epoch: 0
+11/01 12:18:14 AM | Epoch[0](99/100): Prec@1(1,5) 89.12, 99.23
+11/01 12:18:14 AM | Saving to densenet_40_cov9.pt
+11/01 12:18:14 AM | =>Best accuracy 89.120
+11/01 12:18:14 AM | 
+Epoch: 1
+11/01 12:19:43 AM | Epoch[1](99/100): Prec@1(1,5) 90.32, 99.48
+11/01 12:19:43 AM | Saving to densenet_40_cov9.pt
+11/01 12:19:43 AM | =>Best accuracy 90.320
+11/01 12:19:43 AM | 
+Epoch: 2
+11/01 12:21:13 AM | Epoch[2](99/100): Prec@1(1,5) 90.32, 99.42
+11/01 12:21:13 AM | =>Best accuracy 90.320
+11/01 12:21:13 AM | 
+Epoch: 3
+11/01 12:22:42 AM | Epoch[3](99/100): Prec@1(1,5) 90.69, 99.65
+11/01 12:22:42 AM | Saving to densenet_40_cov9.pt
+11/01 12:22:42 AM | =>Best accuracy 90.690
+11/01 12:22:42 AM | 
+Epoch: 4
+11/01 12:24:12 AM | Epoch[4](99/100): Prec@1(1,5) 90.04, 99.58
+11/01 12:24:12 AM | =>Best accuracy 90.690
+11/01 12:24:12 AM | 
+Epoch: 5
+11/01 12:25:41 AM | Epoch[5](99/100): Prec@1(1,5) 93.10, 99.74
+11/01 12:25:41 AM | Saving to densenet_40_cov9.pt
+11/01 12:25:41 AM | =>Best accuracy 93.100
+11/01 12:25:41 AM | 
+Epoch: 6
+11/01 12:27:11 AM | Epoch[6](99/100): Prec@1(1,5) 93.49, 99.75
+11/01 12:27:11 AM | Saving to densenet_40_cov9.pt
+11/01 12:27:11 AM | =>Best accuracy 93.490
+11/01 12:27:11 AM | 
+Epoch: 7
+11/01 12:28:40 AM | Epoch[7](99/100): Prec@1(1,5) 93.58, 99.73
+11/01 12:28:40 AM | Saving to densenet_40_cov9.pt
+11/01 12:28:40 AM | =>Best accuracy 93.580
+11/01 12:28:40 AM | 
+Epoch: 8
+11/01 12:30:10 AM | Epoch[8](99/100): Prec@1(1,5) 93.55, 99.78
+11/01 12:30:10 AM | =>Best accuracy 93.580
+11/01 12:30:10 AM | 
+Epoch: 9
+11/01 12:31:39 AM | Epoch[9](99/100): Prec@1(1,5) 93.29, 99.76
+11/01 12:31:39 AM | =>Best accuracy 93.580
+11/01 12:31:39 AM | 
+Epoch: 10
+11/01 12:33:09 AM | Epoch[10](99/100): Prec@1(1,5) 93.46, 99.78
+11/01 12:33:09 AM | =>Best accuracy 93.580
+11/01 12:33:09 AM | 
+Epoch: 11
+11/01 12:34:38 AM | Epoch[11](99/100): Prec@1(1,5) 93.49, 99.76
+11/01 12:34:38 AM | =>Best accuracy 93.580
+11/01 12:34:38 AM | 
+Epoch: 12
+11/01 12:36:08 AM | Epoch[12](99/100): Prec@1(1,5) 93.56, 99.74
+11/01 12:36:08 AM | =>Best accuracy 93.580
+11/01 12:36:08 AM | 
+Epoch: 13
+11/01 12:37:37 AM | Epoch[13](99/100): Prec@1(1,5) 93.60, 99.76
+11/01 12:37:37 AM | Saving to densenet_40_cov9.pt
+11/01 12:37:37 AM | =>Best accuracy 93.600
+11/01 12:37:37 AM | 
+Epoch: 14
+11/01 12:39:06 AM | Epoch[14](99/100): Prec@1(1,5) 93.51, 99.78
+11/01 12:39:06 AM | =>Best accuracy 93.600
+11/01 12:39:06 AM | cov-id: 9 ====> Resuming from pruned_checkpoint...
+11/01 12:39:06 AM | 
+Epoch: 0
+11/01 12:40:36 AM | Epoch[0](99/100): Prec@1(1,5) 90.62, 99.63
+11/01 12:40:36 AM | Saving to densenet_40_cov10.pt
+11/01 12:40:36 AM | =>Best accuracy 90.620
+11/01 12:40:36 AM | 
+Epoch: 1
+11/01 12:42:05 AM | Epoch[1](99/100): Prec@1(1,5) 87.37, 99.34
+11/01 12:42:05 AM | =>Best accuracy 90.620
+11/01 12:42:05 AM | 
+Epoch: 2
+11/01 12:43:35 AM | Epoch[2](99/100): Prec@1(1,5) 90.76, 99.59
+11/01 12:43:35 AM | Saving to densenet_40_cov10.pt
+11/01 12:43:35 AM | =>Best accuracy 90.760
+11/01 12:43:35 AM | 
+Epoch: 3
+11/01 12:45:04 AM | Epoch[3](99/100): Prec@1(1,5) 89.58, 99.55
+11/01 12:45:04 AM | =>Best accuracy 90.760
+11/01 12:45:04 AM | 
+Epoch: 4
+11/01 12:46:34 AM | Epoch[4](99/100): Prec@1(1,5) 90.26, 99.56
+11/01 12:46:34 AM | =>Best accuracy 90.760
+11/01 12:46:34 AM | 
+Epoch: 5
+11/01 12:48:03 AM | Epoch[5](99/100): Prec@1(1,5) 92.85, 99.70
+11/01 12:48:03 AM | Saving to densenet_40_cov10.pt
+11/01 12:48:03 AM | =>Best accuracy 92.850
+11/01 12:48:03 AM | 
+Epoch: 6
+11/01 12:49:33 AM | Epoch[6](99/100): Prec@1(1,5) 93.01, 99.70
+11/01 12:49:33 AM | Saving to densenet_40_cov10.pt
+11/01 12:49:33 AM | =>Best accuracy 93.010
+11/01 12:49:33 AM | 
+Epoch: 7
+11/01 12:51:02 AM | Epoch[7](99/100): Prec@1(1,5) 93.06, 99.71
+11/01 12:51:02 AM | Saving to densenet_40_cov10.pt
+11/01 12:51:02 AM | =>Best accuracy 93.060
+11/01 12:51:02 AM | 
+Epoch: 8
+11/01 12:52:32 AM | Epoch[8](99/100): Prec@1(1,5) 93.06, 99.71
+11/01 12:52:32 AM | =>Best accuracy 93.060
+11/01 12:52:32 AM | 
+Epoch: 9
+11/01 12:54:01 AM | Epoch[9](99/100): Prec@1(1,5) 93.27, 99.70
+11/01 12:54:01 AM | Saving to densenet_40_cov10.pt
+11/01 12:54:02 AM | =>Best accuracy 93.270
+11/01 12:54:02 AM | 
+Epoch: 10
+11/01 12:55:31 AM | Epoch[10](99/100): Prec@1(1,5) 93.26, 99.71
+11/01 12:55:31 AM | =>Best accuracy 93.270
+11/01 12:55:31 AM | 
+Epoch: 11
+11/01 12:57:01 AM | Epoch[11](99/100): Prec@1(1,5) 93.26, 99.69
+11/01 12:57:01 AM | =>Best accuracy 93.270
+11/01 12:57:01 AM | 
+Epoch: 12
+11/01 12:58:30 AM | Epoch[12](99/100): Prec@1(1,5) 93.23, 99.70
+11/01 12:58:30 AM | =>Best accuracy 93.270
+11/01 12:58:30 AM | 
+Epoch: 13
+11/01 01:00:00 AM | Epoch[13](99/100): Prec@1(1,5) 93.24, 99.70
+11/01 01:00:00 AM | =>Best accuracy 93.270
+11/01 01:00:00 AM | 
+Epoch: 14
+11/01 01:01:29 AM | Epoch[14](99/100): Prec@1(1,5) 93.29, 99.69
+11/01 01:01:29 AM | Saving to densenet_40_cov10.pt
+11/01 01:01:29 AM | =>Best accuracy 93.290
+11/01 01:01:29 AM | cov-id: 10 ====> Resuming from pruned_checkpoint...
+11/01 01:01:29 AM | 
+Epoch: 0
+11/01 01:02:59 AM | Epoch[0](99/100): Prec@1(1,5) 89.67, 99.42
+11/01 01:02:59 AM | Saving to densenet_40_cov11.pt
+11/01 01:02:59 AM | =>Best accuracy 89.670
+11/01 01:02:59 AM | 
+Epoch: 1
+11/01 01:04:28 AM | Epoch[1](99/100): Prec@1(1,5) 89.24, 99.59
+11/01 01:04:28 AM | =>Best accuracy 89.670
+11/01 01:04:28 AM | 
+Epoch: 2
+11/01 01:05:58 AM | Epoch[2](99/100): Prec@1(1,5) 90.42, 99.61
+11/01 01:05:58 AM | Saving to densenet_40_cov11.pt
+11/01 01:05:58 AM | =>Best accuracy 90.420
+11/01 01:05:58 AM | 
+Epoch: 3
+11/01 01:07:28 AM | Epoch[3](99/100): Prec@1(1,5) 90.08, 99.62
+11/01 01:07:28 AM | =>Best accuracy 90.420
+11/01 01:07:28 AM | 
+Epoch: 4
+11/01 01:08:57 AM | Epoch[4](99/100): Prec@1(1,5) 90.70, 99.64
+11/01 01:08:57 AM | Saving to densenet_40_cov11.pt
+11/01 01:08:57 AM | =>Best accuracy 90.700
+11/01 01:08:57 AM | 
+Epoch: 5
+11/01 01:10:27 AM | Epoch[5](99/100): Prec@1(1,5) 92.71, 99.78
+11/01 01:10:27 AM | Saving to densenet_40_cov11.pt
+11/01 01:10:27 AM | =>Best accuracy 92.710
+11/01 01:10:27 AM | 
+Epoch: 6
+11/01 01:11:56 AM | Epoch[6](99/100): Prec@1(1,5) 93.09, 99.75
+11/01 01:11:56 AM | Saving to densenet_40_cov11.pt
+11/01 01:11:56 AM | =>Best accuracy 93.090
+11/01 01:11:56 AM | 
+Epoch: 7
+11/01 01:13:26 AM | Epoch[7](99/100): Prec@1(1,5) 93.16, 99.74
+11/01 01:13:26 AM | Saving to densenet_40_cov11.pt
+11/01 01:13:26 AM | =>Best accuracy 93.160
+11/01 01:13:26 AM | 
+Epoch: 8
+11/01 01:14:55 AM | Epoch[8](99/100): Prec@1(1,5) 93.28, 99.78
+11/01 01:14:55 AM | Saving to densenet_40_cov11.pt
+11/01 01:14:55 AM | =>Best accuracy 93.280
+11/01 01:14:55 AM | 
+Epoch: 9
+11/01 01:16:25 AM | Epoch[9](99/100): Prec@1(1,5) 93.49, 99.76
+11/01 01:16:25 AM | Saving to densenet_40_cov11.pt
+11/01 01:16:25 AM | =>Best accuracy 93.490
+11/01 01:16:25 AM | 
+Epoch: 10
+11/01 01:17:54 AM | Epoch[10](99/100): Prec@1(1,5) 93.48, 99.75
+11/01 01:17:54 AM | =>Best accuracy 93.490
+11/01 01:17:54 AM | 
+Epoch: 11
+11/01 01:19:24 AM | Epoch[11](99/100): Prec@1(1,5) 93.43, 99.80
+11/01 01:19:24 AM | =>Best accuracy 93.490
+11/01 01:19:24 AM | 
+Epoch: 12
+11/01 01:20:54 AM | Epoch[12](99/100): Prec@1(1,5) 93.42, 99.80
+11/01 01:20:54 AM | =>Best accuracy 93.490
+11/01 01:20:54 AM | 
+Epoch: 13
+11/01 01:22:23 AM | Epoch[13](99/100): Prec@1(1,5) 93.45, 99.78
+11/01 01:22:23 AM | =>Best accuracy 93.490
+11/01 01:22:23 AM | 
+Epoch: 14
+11/01 01:23:52 AM | Epoch[14](99/100): Prec@1(1,5) 93.46, 99.76
+11/01 01:23:52 AM | =>Best accuracy 93.490
+11/01 01:23:52 AM | cov-id: 11 ====> Resuming from pruned_checkpoint...
+11/01 01:23:53 AM | 
+Epoch: 0
+11/01 01:25:22 AM | Epoch[0](99/100): Prec@1(1,5) 88.96, 99.59
+11/01 01:25:22 AM | Saving to densenet_40_cov12.pt
+11/01 01:25:22 AM | =>Best accuracy 88.960
+11/01 01:25:22 AM | 
+Epoch: 1
+11/01 01:26:51 AM | Epoch[1](99/100): Prec@1(1,5) 88.61, 99.51
+11/01 01:26:51 AM | =>Best accuracy 88.960
+11/01 01:26:51 AM | 
+Epoch: 2
+11/01 01:28:21 AM | Epoch[2](99/100): Prec@1(1,5) 88.36, 99.34
+11/01 01:28:21 AM | =>Best accuracy 88.960
+11/01 01:28:21 AM | 
+Epoch: 3
+11/01 01:29:50 AM | Epoch[3](99/100): Prec@1(1,5) 89.56, 99.61
+11/01 01:29:50 AM | Saving to densenet_40_cov12.pt
+11/01 01:29:50 AM | =>Best accuracy 89.560
+11/01 01:29:50 AM | 
+Epoch: 4
+11/01 01:31:19 AM | Epoch[4](99/100): Prec@1(1,5) 90.94, 99.57
+11/01 01:31:19 AM | Saving to densenet_40_cov12.pt
+11/01 01:31:19 AM | =>Best accuracy 90.940
+11/01 01:31:19 AM | 
+Epoch: 5
+11/01 01:32:49 AM | Epoch[5](99/100): Prec@1(1,5) 93.17, 99.84
+11/01 01:32:49 AM | Saving to densenet_40_cov12.pt
+11/01 01:32:49 AM | =>Best accuracy 93.170
+11/01 01:32:49 AM | 
+Epoch: 6
+11/01 01:34:18 AM | Epoch[6](99/100): Prec@1(1,5) 93.24, 99.80
+11/01 01:34:18 AM | Saving to densenet_40_cov12.pt
+11/01 01:34:18 AM | =>Best accuracy 93.240
+11/01 01:34:18 AM | 
+Epoch: 7
+11/01 01:35:48 AM | Epoch[7](99/100): Prec@1(1,5) 93.26, 99.84
+11/01 01:35:48 AM | Saving to densenet_40_cov12.pt
+11/01 01:35:48 AM | =>Best accuracy 93.260
+11/01 01:35:48 AM | 
+Epoch: 8
+11/01 01:37:17 AM | Epoch[8](99/100): Prec@1(1,5) 93.12, 99.84
+11/01 01:37:17 AM | =>Best accuracy 93.260
+11/01 01:37:17 AM | 
+Epoch: 9
+11/01 01:38:47 AM | Epoch[9](99/100): Prec@1(1,5) 93.31, 99.83
+11/01 01:38:47 AM | Saving to densenet_40_cov12.pt
+11/01 01:38:47 AM | =>Best accuracy 93.310
+11/01 01:38:47 AM | 
+Epoch: 10
